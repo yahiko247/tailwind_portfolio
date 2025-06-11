@@ -19,6 +19,11 @@ export const MobileMenu =({ menuOpen, setMenuOpen}) => {
             >
                 &times;
             </button>
+
+            <a href="#home" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300`}> Home</a>
+            <a href="#about" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300`}> About </a>
+            <a href="#projects" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300`}> Projects</a>
+            <a href="#contact" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300`}>contact</a>
         </div>
     );
 }

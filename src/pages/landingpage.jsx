@@ -7,6 +7,7 @@ import { MainContent} from '../components/maincontent'
 import { Footer } from '../components/footerComponent'
 import { LoadingScreen } from '../components/loadingScreen'
 import { MobileMenu } from '../components/MobileNav'
+import { Home } from '../components/section/home'
 
 
 
@@ -26,6 +27,8 @@ function LandingPage() {
 
         <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+        <Home/>
+
 
       </div>
     </>
