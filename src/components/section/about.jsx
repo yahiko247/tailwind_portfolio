@@ -9,8 +9,8 @@ export const About = () => {
                     About Me
                 </h2>
 
-                <div>
-                    <p>
+                <div className="glass rounded-xl p-8 border-white/10 border hover:-transition-y-1 transition-all">
+                    <p className="text-gray-300 mb-6">
                         Fourth-year student at USTP with skills in IoT, web, and mobile app development. 
                         Experienced in using Flutter, ESP32, and MQTT to create smart solutions like sensor-based 
                         systems and smart irrigation. Passionate about integrating machine learning into IoT 
