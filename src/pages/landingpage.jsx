@@ -9,6 +9,7 @@ import { LoadingScreen } from '../components/loadingScreen'
 import { MobileMenu } from '../components/MobileNav'
 import { Home } from '../components/section/home'
 import { About } from '../components/section/about'
+import { Projects } from '../components/section/project'
 
 
 
@@ -30,6 +31,7 @@ function LandingPage() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home/>
         <About/>
+        <Projects/>
 
 
       </div>
