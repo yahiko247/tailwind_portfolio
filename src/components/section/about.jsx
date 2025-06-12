@@ -64,6 +64,20 @@ export const About = () => {
                     </div>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">✨Achievments</h3>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <li>
+                                <strong>SINA TECH 1st runner-up Pitching Competition</strong> on January 05, 2024 at CDO b.i.t.e.s Board Room 3rd Floor Innovation Center Building
+                            </li>
+                            <li>
+                                <strong>Certificate of Completion (Braintrust Educational Development System - MANA Millenium Technical School )</strong>  at 2nd floor May lui bldg. Tiano-Gomez Street, Cagayan de Oro City
+                            </li>
+                            <li>
+                                <strong>2nd Place PC Assembly and Configuration</strong> (School Based Technolympic 2017 in Baungon National High School)
+                            </li>
+                            <li>
+                                <strong>Certificate of Completion </strong> (SAM Computer Special Education at #3 Calibigan Ext RD. Zone 6 Bugo Cagayan de Oro February 21, 2015)
+                            </li>
+                        </ul>
                     </div>
                 </div>
 

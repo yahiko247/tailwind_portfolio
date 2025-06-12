@@ -1,7 +1,7 @@
 
 export const Contact = () => {
     return(
-        <section id="contact" className="min-h-screen flex items-center justify-center relative">
+        <section id="contact" className="min-h-screen flex items-center justify-center relative space-x-4">
                 <h3>Facebook</h3>
                 <h3>Instagram</h3>
                 <h3>Github</h3>
