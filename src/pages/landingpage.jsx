@@ -8,6 +8,7 @@ import { Footer } from '../components/footerComponent'
 import { LoadingScreen } from '../components/loadingScreen'
 import { MobileMenu } from '../components/MobileNav'
 import { Home } from '../components/section/home'
+import { About } from '../components/section/about'
 
 
 
@@ -28,6 +29,7 @@ function LandingPage() {
         <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home/>
+        <About/>
 
 
       </div>
