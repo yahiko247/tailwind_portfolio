@@ -10,6 +10,7 @@ import { MobileMenu } from '../components/MobileNav'
 import { Home } from '../components/section/home'
 import { About } from '../components/section/about'
 import { Projects } from '../components/section/project'
+import { Contact } from '../components/section/contact'
 
 
 
@@ -32,6 +33,7 @@ function LandingPage() {
         <Home/>
         <About/>
         <Projects/>
+        <Contact/>
 
 
       </div>
