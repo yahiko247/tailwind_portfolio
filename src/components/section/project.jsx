@@ -18,7 +18,7 @@ export const Projects = () => {
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/39 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
                         <h3 className="text-xl font-bold mb-2">Barangay Information Management System</h3>
                          <p className="text-gray-400 mb-4">
-                             BIMS aims to digitize and streamline the management of various barangay records such as; demographic data, civil registries, land records, business permits, and other relevant information
+                             BIMS aims to digitize and streamline the management of various barangay records such as; demographic data, civil registries, land records, business permits, and other relevant information (still in development)
                         </p>
                         <div>
                             {projectMaterialsBims.map((tech, key) => (
@@ -32,7 +32,7 @@ export const Projects = () => {
                         </div>
 
                         <div className="flex justify-between items-center">
-                            <a href="" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
+                            <a href="https://github.com/yahiko247/IntegratedWeb" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
                         </div>
                    
                     </div>
