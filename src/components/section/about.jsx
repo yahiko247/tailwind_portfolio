@@ -3,6 +3,10 @@ export const About = () => {
 
     const frontendSkill = ["React", "TailwindCss", "Flutter", "MUI"]
     const backendSkill = ["Nextjs", "Python", "firebase"]
+    const networkingSkill = ["Routing and Switch", " Firewall", "Troubleshoot", "Network Design"]
+    const msSkill = ["Word", "Excel", "Power Point", "Publisher"]
+    const creativeSkills = ["Photo Editing", "Video Editing"]
+    const communication = ["Verbal", "and", "Non-Verbal"]
     return (
     <RevealOnScroll>
             <section
@@ -49,6 +53,54 @@ export const About = () => {
                                     ))}
                                 </div>
                             </div>
+                            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                                <h3 className="text-xl font-bold mb-4"> Networking Skills</h3>
+                                <div className="flex flex-wrap gap-2">
+                                    {networkingSkill.map((tech, key) => (
+                                        <span 
+                                            key={key}
+                                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                            hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]" transition
+                                        >{tech}</span>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                                <h3 className="text-xl font-bold mb-4"> Microsoft Skill</h3>
+                                <div className="flex flex-wrap gap-2">
+                                    {msSkill.map((tech, key) => (
+                                        <span 
+                                            key={key}
+                                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                            hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]" transition
+                                        >{tech}</span>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                                <h3 className="text-xl font-bold mb-4"> Creative and Technical Skills</h3>
+                                <div className="flex flex-wrap gap-2">
+                                    {creativeSkills.map((tech, key) => (
+                                        <span 
+                                            key={key}
+                                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                            hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]" transition
+                                        >{tech}</span>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                                <h3 className="text-xl font-bold mb-4"> Communication Skill</h3>
+                                <div className="flex flex-wrap gap-2">
+                                    {communication.map((tech, key) => (
+                                        <span 
+                                            key={key}
+                                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                            hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]" transition
+                                        >{tech}</span>
+                                    ))}
+                                </div>
+                            </div>
                             
                         </div>
                     </div>
@@ -57,7 +109,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">🏫Educationn</h3>
                             <ul className="list-disc list-inside text-gray-300 space-y-2">
                                 <li>
-                                    <strong> B.S. in Information Technology</strong> - University of Science and Technology of Southern Philippines(USTP 2024-2025)
+                                    <strong> B.S. in Information Technology</strong> - University of Science and Technology of Southern Philippines(USTP 2020-2025)
                                 </li>
                                 <li>
                                     <strong>Relevant Courswork</strong>: Data Management, Web Dev, Networking, System Administration, Mobile Dev
