@@ -3,6 +3,7 @@
 export const Projects = () => {
 
     const projectMaterialsBims = ["React", "Node js", "Firebase", "Mui"]
+    const smmicMaterials = ["Flutter", "python", "C++"]
     return (
         <section 
             id="projects"
@@ -15,8 +16,8 @@ export const Projects = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gaps-6">
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/39 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
-                        <h3>Barangay Information Management System</h3>
-                         <p>
+                        <h3 className="text-xl font-bold mb-2">Barangay Information Management System</h3>
+                         <p className="text-gray-400 mb-4">
                              BIMS aims to digitize and streamline the management of various barangay records such as; demographic data, civil registries, land records, business permits, and other relevant information
                         </p>
                         <div>
@@ -29,8 +30,14 @@ export const Projects = () => {
                                 </span>
                             ))}
                         </div>
+
+                        <div className="flex justify-between items-center">
+                            <a href="" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
+                        </div>
                    
                     </div>
+
+                    
                 </div>
             </div>
             
