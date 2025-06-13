@@ -8,5 +8,6 @@ export default defineConfig({
   server: {
     host: '0.0.0.0', // Expose the server to your local network
     port: 5173        // Optional, but can set if you want to fix the port
-  }
+  },
+  base: process.env.VITE_BASE_PATH || "/tailwind_portfolio"
 })
